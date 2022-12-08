@@ -1,0 +1,104 @@
+Gyerekek heti játéki deje:
+child1 - 13
+child2 - 12
+child3 - 9
+child4 - 9
+child5 - 9
+child6 - 9
+child7 - 9
+child8 - 9
+child9 - 9
+child10 - 9
+
+Össz heti játék idő: 97
+
+Hetfo
+	12 13 14 15 16 17 18 19 20 21 22 
+child1	PC PC PC PS PS PS -- -- -- -- -- 
+child2	-- PS PS -- -- -- PC PS PS -- -- 
+child3	-- -- -- -- -- -- PS PC PC PC PS 
+child4	   -- -- -- -- -- -- --       PC 
+child5	-- -- -- PC -- -- -- -- -- -- -- 
+child6	            PC PC -- -- -- -- -- 
+child7	-- --       -- -- -- -- -- --    
+child8	   --             --    -- -- -- 
+child9	-- --       --    -- --    -- -- 
+child10	-- -- -- --          -- -- -- -- 
+
+Kedd
+	12 13 14 15 16 17 18 19 20 21 22 
+child1	PS PS PS PC PC PS -- -- -- -- -- 
+child2	--       -- -- --    PC    -- -- 
+child3	-- -- -- -- -- -- -- -- -- -- -- 
+child4	      -- -- --    -- --    -- -- 
+child5	-- PC       -- -- -- -- -- -- -- 
+child6	--    -- --    -- --    -- -- -- 
+child7	-- -- PC -- -- -- PC -- PC -- -- 
+child8	PC       -- --    -- -- -- -- -- 
+child9	-- -- -- -- -- -- -- --          
+child10	--       -- -- PC -- -- -- PC PC 
+
+Szerda
+	12 13 14 15 16 17 18 19 20 21 22 
+child1	                  -- -- -- -- -- 
+child2	-- PS    -- -- -- PC PC PC -- -- 
+child3	-- -- -- -- -- -- -- -- -- -- -- 
+child4	         -- -- -- -- --    -- -- 
+child5	--       PC -- -- -- -- -- -- -- 
+child6	--    -- -- PC -- --    -- -- -- 
+child7	-- PC PC -- -- -- -- --    -- -- 
+child8	         -- -- PC -- -- -- -- -- 
+child9	-- -- -- -- -- -- -- --          
+child10	PC       -- -- -- -- -- -- PC PC 
+
+Csutortok
+	12 13 14 15 16 17 18 19 20 21 22 
+child1	                  -- -- -- -- -- 
+child2	--       -- -- --          -- -- 
+child3	-- -- -- -- -- -- -- -- -- -- -- 
+child4	PC PC PC -- -- -- -- -- PC -- -- 
+child5	-- PS PS PC -- -- -- -- -- -- -- 
+child6	--    -- -- PC PC -- PC -- -- -- 
+child7	-- -- -- -- -- -- -- -- PS -- -- 
+child8	-- --    -- -- PS -- -- -- -- -- 
+child9	--    -- -- PS -- -- --    PC PC 
+child10	PS       -- -- -- -- -- -- PS PS 
+
+Pentek
+	12 13 14 15 16 17 18 19 20 21 22 
+child1	   -- -- -- -- -- --          -- 
+child2	--       -- -- --          -- -- 
+child3	-- -- -- -- -- -- -- -- -- -- -- 
+child4	PC PC PC -- -- -- -- -- PC -- -- 
+child5	-- -- -- PC PC PC -- -- -- -- -- 
+child6	-- PS -- -- PS -- -- PC -- -- -- 
+child7	-- XB PS -- -- -- -- -- PS -- -- 
+child8	PS    XB -- -- PS -- -- -- -- -- 
+child9	-- --    PS XB -- -- -- -- -- -- 
+child10	XB       -- -- -- -- -- -- PC PC 
+
+Szombat
+	12 13 14 15 16 17 18 19 20 21 22 
+child1	-- -- -- PS PS PC -- -- -- -- -- 
+child2	--       -- -- -- PC XB    -- -- 
+child3	-- -- PC -- -- -- -- PC PC PC -- 
+child4	PC       -- -- -- -- --    -- -- 
+child5	-- PC    PC -- -- -- -- -- -- -- 
+child6	-- PS -- -- PC -- --    -- -- -- 
+child7	-- XB PS -- -- -- -- -- PS -- -- 
+child8	--    -- -- -- -- -- PS XB PS -- 
+child9	-- -- -- -- -- -- -- --    XB PC 
+child10	PS    XB -- -- -- -- -- --    PS 
+
+Vasarnap
+	12 13 14 15 16 17 18 19 20 21 22 
+child1	            PC    -- -- -- -- -- 
+child2	--       -- -- -- PC       -- -- 
+child3	-- -- -- PC -- PC -- -- -- PC -- 
+child4	-- --    -- --       --    -- -- 
+child5	   -- -- --       -- -- --       
+child6	--    -- --    -- --    -- -- -- 
+child7	PC PC    -- -- -- -- --    -- -- 
+child8	-- -- -- -- --    -- -- --    PC 
+child9	-- -- PC    -- -- -- -- PC -- -- 
+child10	         -- -- -- -- -- --       

@@ -1,0 +1,129 @@
+data;
+
+param dayStart := 12;
+param dayEnd := 22;
+param mimimunPlaytime := 9;
+
+set children:=	child1 child2 child3 child4 child5 child6 child7 child8 child9 child10;
+set days:= Hetfo Kedd Szerda Csutortok Pentek Szombat Vasarnap;
+set devices := PC PS2 Xbox;
+
+param homeworkOnPc:=
+		child1	3
+		child2	1
+		child3	3
+		child4	1
+		child5	2
+		child6	2
+		child7	5
+		child8	1
+		child9	0
+		child10	6;
+
+param deviceDailyMaxUsage:=
+		PC		11
+		PS2		10
+		Xbox	6;
+		
+param dailyMaxUsage:=
+		Hetfo		20
+		Kedd		15
+		Szerda		12
+		Csutortok	18
+		Pentek		21
+		Szombat		25
+		Vasarnap	10;
+
+param freetime:=
+[*,*,Hetfo]: 
+		12	13	14	15	16	17	18	19	20	21	22:=
+child1	1	1	1	1	1	1	.	.	.	.	.
+child2	.	1	1	.	.	.	1	1	1	.	.
+child3	.	.	.	.	.	.	1	1	1	1	1
+child4	1	.	.	.	.	.	.	.	1	1	1
+child5	.	.	.	1	.	.	.	.	.	.	.
+child6	1	1	1	1	1	1	.	.	.	.	.
+child7	.	.	1	1	.	.	.	.	.	.	1
+child8	1	.	1	1	1	1	.	1	.	.	.
+child9	.	.	1	1	.	1	.	.	1	.	.
+child10	.	.	.	.	1	1	1	.	.	.	.
+
+[*,*,Kedd]: 
+		12	13	14	15	16	17	18	19	20	21	22:=
+child1	1	1	1	1	1	1	.	.	.	.	.
+child2	.	1	1	.	.	.	1	1	1	.	.
+child3	.	.	.	.	.	.	.	.	.	.	.
+child4	1	1	.	.	.	1	.	.	1	.	.
+child5	.	1	1	1	.	.	.	.	.	.	.
+child6	.	1	.	.	1	.	.	1	.	.	.
+child7	.	.	1	.	.	.	1	.	1	.	.
+child8	1	1	1	.	.	1	.	.	.	.	.
+child9	.	.	.	.	.	.	.	.	1	1	1
+child10	.	1	1	.	.	1	.	.	.	1	1
+
+[*,*,Szerda]: 
+		12	13	14	15	16	17	18	19	20	21	22:=
+child1	1	1	1	1	1	1	.	.	.	.	.
+child2	.	1	1	.	.	.	1	1	1	.	.
+child3	.	.	.	.	.	.	.	.	.	.	.
+child4	1	1	1	.	.	.	.	.	1	.	.
+child5	.	1	1	1	.	.	.	.	.	.	.
+child6	.	1	.	.	1	.	.	1	.	.	.
+child7	.	1	1	.	.	.	.	.	1	.	.
+child8	1	1	1	.	.	1	.	.	.	.	.
+child9	.	.	.	.	.	.	.	.	1	1	1
+child10	1	1	1	.	.	.	.	.	.	1	1
+
+[*,*,Csutortok]: 
+		12	13	14	15	16	17	18	19	20	21	22:=
+child1	1	1	1	1	1	1	.	.	.	.	.
+child2	.	1	1	.	.	.	1	1	1	.	.
+child3	.	.	.	.	.	.	.	.	.	.	.
+child4	1	1	1	.	.	.	.	.	1	.	.
+child5	.	1	1	1	.	.	.	.	.	.	.
+child6	.	1	.	.	1	1	.	1	.	.	.
+child7	.	.	.	.	.	.	.	.	1	.	.
+child8	.	.	1	.	.	1	.	.	.	.	.
+child9	.	1	.	.	1	.	.	.	1	1	1
+child10	1	1	1	.	.	.	.	.	.	1	1
+
+[*,*,Pentek]: 
+		12	13	14	15	16	17	18	19	20	21	22:=
+child1	1	.	.	.	.	.	.	1	1	1	.
+child2	.	1	1	.	.	.	1	1	1	.	.
+child3	.	.	.	.	.	.	.	.	.	.	.
+child4	1	1	1	.	.	.	.	.	1	.	.
+child5	.	.	.	1	1	1	.	.	.	.	.
+child6	.	1	.	.	1	.	.	1	.	.	.
+child7	.	1	1	.	.	.	.	.	1	.	.
+child8	1	1	1	.	.	1	.	.	.	.	.
+child9	.	.	1	1	1	.	.	.	.	.	.
+child10	1	1	1	.	.	.	.	.	.	1	1
+
+[*,*,Szombat]:
+		12	13	14	15	16	17	18	19	20	21	22:=
+child1	.	.	.	1	1	1	.	.	.	.	.
+child2	.	1	1	.	.	.	1	1	1	.	.
+child3	.	.	1	.	.	.	.	1	1	1	.
+child4	1	1	1	.	.	.	.	.	1	.	.
+child5	.	1	1	1	.	.	.	.	.	.	.
+child6	.	1	.	.	1	.	.	1	.	.	.
+child7	.	1	1	.	.	.	.	.	1	.	.
+child8	.	1	.	.	.	.	.	1	1	1	.
+child9	.	.	.	.	.	.	.	.	1	1	1
+child10	1	1	1	.	.	.	.	.	.	1	1
+
+[*,*,Vasarnap]:
+		12	13	14	15	16	17	18	19	20	21	22:=
+child1	1	1	1	1	1	1	.	.	.	.	.
+child2	.	1	1	.	.	.	1	1	1	.	.
+child3	.	.	.	1	.	1	.	.	.	1	.
+child4	.	.	1	.	.	1	1	.	1	.	.
+child5	1	.	.	.	1	1	.	.	.	1	1
+child6	.	1	.	.	1	.	.	1	.	.	.
+child7	1	1	1	.	.	.	.	.	1	.	.
+child8	.	.	.	.	.	1	.	.	.	1	1
+child9	.	.	1	1	.	.	.	.	1	.	.
+child10	1	1	1	.	.	.	.	.	.	1	1;
+
+end;
